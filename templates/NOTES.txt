@@ -1,0 +1,7 @@
+
+This chart only deploys External Secrets Operator resources:
+
+- SecretStore: {{ .Values.secretStore.name }}
+- ExternalSecret: {{ .Values.externalSecret.name }}
+
+Refer to the documentation for how to use these resources in your workloads.
