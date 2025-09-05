@@ -2,8 +2,9 @@
 This chart only deploys External Secrets Operator resources:
 
 - SecretStore: {{ .Values.secretStore.name }}
-- ExternalSecret: {{ .Values.externalSecret.name }}
+- ExternalSecrets:
+{{- range .Values.externalSecrets }}
+	- {{ .name }}
+{{- end }}
 
 Refer to the documentation for how to use these resources in your workloads.
-
-helm repo index . --url https://thamilton-callrail.github.io/eso-aws-secret-manager
