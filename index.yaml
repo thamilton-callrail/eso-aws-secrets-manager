@@ -3,12 +3,12 @@ entries:
   eso-aws-secrets-manager:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-09-04T22:24:55.867333-04:00"
+    created: "2025-09-04T22:30:47.779115-04:00"
     description: A Helm chart for Kubernetes
-    digest: d82a3021f2d6208edd5374ac9e8b60e892f75f2ef45e2e8172507502ca1c650d
+    digest: 0dfbbe46df03b0a56c1958c408cfeb4982751b0ab931d92a7a190e7202ee29a4
     name: eso-aws-secrets-manager
     type: application
     urls:
     - https://thamilton-callrail.github.io/eso-aws-secrets-manager/eso-aws-secrets-manager-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-04T22:24:55.865744-04:00"
+generated: "2025-09-04T22:30:47.777069-04:00"
